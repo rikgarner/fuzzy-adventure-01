@@ -11,7 +11,7 @@ namespace FuzzyCore.DataAccess
     {
         public async Task<string> GetInfo(int id)
         {
-            return ""+id;
+            return ""+id+"";
         }
     }
 }
